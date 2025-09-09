@@ -5,4 +5,4 @@ Repositori ini berisi kumpulan modul pembelajaran untuk mata kuliah Pemrograman 
 Modul ini masih dalam tahap pengembangan. Silakan laporkan jika ada kesalahan atau saran perbaikan.
 
 📬 Kontak
-Untuk pertanyaan atau kolaborasi, silakan hubungi @pakarief.web.id[http://pakarief.web.id/]
+Untuk pertanyaan atau kolaborasi, silakan hubungi [http://pakarief.web.id/]
