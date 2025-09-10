@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5; /* Warna latar sedikit kebiruan */
+ /* jawaban soal modul 4 2a
+    background-image: linear-gradient(to top, #accbee, #e7f0fd);*/
+    color: #333;
+    margin: 0; /* Menghilangkan margin default dari body */
+    padding: 0;
+}
+h1, h2 {
+    color: #0d2c54; /* Warna biru tua */
+}
+
+#container {
+    width: 90%;
+    max-width: 900px; /* Lebar maksimal agar tidak terlalu lebar di layar besar */
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profil-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Kolom 1: 200px, Kolom 2: sisa ruang */
+    gap: 30px; /* Jarak antara foto dan teks */
+    align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+    margin-bottom: 30px;
+}
+
+.profil-foto img {
+    width: 100%;
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Jawaban soal modul 4 no 2b
+.data-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+*/
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan spasi antar border sel */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #0d2c54;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Efek 'zebra-stripe' untuk baris genap */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Agar padding tidak menambah lebar elemen */
+}
+
+input[type="submit"] {
+    background-color: #0d2c54;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e4a8a; /* Warna sedikit lebih terang saat hover */
+}
